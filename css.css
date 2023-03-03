@@ -1,0 +1,99 @@
+*{margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+
+    
+}
+.links{display: flex;
+align-items: center;}
+.links img{max-width: 100px;height: 100%;float: left;}
+
+.links a{text-decoration: none;
+        color: black;
+        margin: 20px ;    
+        padding: 10px;
+        float: right;
+        }
+.links a:hover {color: rgb(45, 143, 143);}      
+
+.valor{display: flex;align-items: center;}  
+.valor h2{font-size: 1.25em;color:darkgrey;} 
+.valor strong{font-size: 1.5em;color: black;}
+.valor button{margin-left: 15px;
+                padding: 13px;
+                font-size:1em;
+                border-radius: 10px;
+                background-color: rgb(225, 51, 59);
+                color: aliceblue;
+                border-color:rgb(225, 51, 59) ;
+                cursor: pointer;
+                transition: box-shadow 0.1s ease-in-out;}
+.valor button:hover{box-shadow: 0px 0px 10px rgb(225, 51, 59) ;color: rgb(0, 0, 0);}  
+
+main {background-image:url("/landingpage/img/imgdefundo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    
+    
+
+    
+    }
+    article{display:flex; margin-right: 100px;background-color: aliceblue;border-radius: 30px;width: 30%;max-width: 600px;height: 30em;
+    
+    
+
+    
+    
+}
+ .principal{display:block;}
+ .principal h1{padding: 10px;font-size: 3em;margin: 10px;}
+ .principal h2{font-size: 1.25em;text-align: center;color: darkgray;margin-bottom: 2%;}
+ .principal input{display: block;font-size: 1.25em;width: 80%;border-color: transparent;margin-left: 10%;color: darkgrey;}
+ .principal select{font-size: 1.25em;width: 40%;border-color:transparent;align-items: center;color: darkgray;margin-left: 5%;}
+ .principal select option{border-color: transparent;}
+ .principal p{margin-top: 2%;margin-left: 10%;}
+ .principal .preco{font-size: 3em;}
+ .principal p span{font-size: 1.25em;color: darkgray;}
+ .principal button{
+    padding: 3%;
+    width:85% ;
+    font-size:1em;
+    border-radius: 10px;
+    background-color: rgb(225, 51, 59);
+    color: aliceblue;
+    border-color:rgb(225, 51, 59) ;
+    cursor: pointer;
+    transition: box-shadow 0.1s ease-in-out;
+    margin-left: 5%;
+    margin-top: 3%;}
+    
+ .principal button:hover{box-shadow: 0px 0px 10px rgb(225, 51, 59) ;color: rgb(0, 0, 0);}   
+
+
+    
+  
+
+
+footer{display:flex;padding: 1%;justify-content: space-between;height: auto;}
+ footer p{margin: 0px 50px;}
+ footer p a{text-decoration: none;color: black;}
+ footer p a > i{font-size: 25px;margin-left: 10px;}
+
+
+
+
+
+
+
